@@ -11,12 +11,14 @@ import { AngularFirestoreModule }from 'angularfire2/firestore';
 import { AngularFireStorage }from 'angularfire2/storage';
 
 import { environment } from '../environments/environment';
+import { BookInfoComponent } from './book-info/book-info.component';
 
 export const firebaseConfig = environment.firebaseConfig;
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BookInfoComponent
   ],
   imports: [
     BrowserModule,

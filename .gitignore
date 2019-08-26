@@ -47,3 +47,5 @@ Thumbs.db
 
 # enviroments variables
 src/environments/environment.ts
+src/environments/environment.prod.ts
+.firebase/hosting.ZGlzdFxldmFuZ2VsaW9u.cache
